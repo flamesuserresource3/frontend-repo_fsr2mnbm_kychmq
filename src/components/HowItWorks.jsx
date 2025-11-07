@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { MapPin, Sandwich, Truck, Shield } from 'lucide-react';
+import { MapPin, ChefHat, Truck, Shield } from 'lucide-react';
 
 const steps = [
   { icon: MapPin, title: 'Set your location', text: 'We’ll show chefs cooking near you for quick, fresh delivery.' },
-  { icon: Sandwich, title: 'Choose homemade dishes', text: 'Browse authentic menus and daily specials from local kitchens.' },
+  { icon: ChefHat, title: 'Choose homemade dishes', text: 'Browse authentic menus and daily specials from local kitchens.' },
   { icon: Truck, title: 'Delivered warm', text: 'Your meal arrives fresh and fast—track your order live.' },
   { icon: Shield, title: 'Safe & trusted', text: 'Chefs are verified and reviewed by the community.' },
 ];
